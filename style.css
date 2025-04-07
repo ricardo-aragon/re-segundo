@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background: #333;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  #content {
+    padding: 2rem;
+  }
+  
+  .carrusel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .carrusel img {
+    width: 100%;
+    display: none;
+  }
+  
+  .carrusel img.active {
+    display: block;
+  }
+  
